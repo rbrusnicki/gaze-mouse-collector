@@ -28,5 +28,5 @@ ENV/
 Thumbs.db
 Desktop.ini 
 
-./keyboard_data/*
-./mouse_data/*
+keyboard_data/*
+mouse_data/*
