@@ -1,0 +1,343 @@
+2025-04-10 14:45:15,731 - INFO - Camera initialized successfully
+2025-04-10 14:45:15,732 - INFO - Gaze, Mouse, and Keyboard Data Collector started
+2025-04-10 14:45:15,732 - INFO - Mouse data folder: C:\Users\Administrator\Documents\gaze-mouse-collector\mouse_data
+2025-04-10 14:45:15,732 - INFO - Keyboard data folder: C:\Users\Administrator\Documents\gaze-mouse-collector\keyboard_data
+2025-04-10 14:45:15,738 - INFO - Mouse and keyboard listeners started
+2025-04-10 14:45:18,895 - INFO - Mouse click captured at 20250410_144517_986839 - Position: (1886, 954)
+2025-04-10 14:45:20,484 - INFO - Mouse click captured at 20250410_144520_473428 - Position: (1878, 952)
+2025-04-10 14:45:21,537 - INFO - Mouse click captured at 20250410_144521_525764 - Position: (1691, 1061)
+2025-04-10 14:45:22,448 - INFO - Mouse click captured at 20250410_144522_437607 - Position: (1644, 1033)
+2025-04-10 14:45:23,069 - INFO - Mouse click captured at 20250410_144523_057707 - Position: (1662, 1023)
+2025-04-10 14:45:25,779 - INFO - Mouse click captured at 20250410_144525_768920 - Position: (437, 926)
+2025-04-10 14:45:28,102 - INFO - Mouse click captured at 20250410_144528_091479 - Position: (361, 1058)
+2025-04-10 14:45:30,462 - INFO - Mouse click captured at 20250410_144530_451396 - Position: (2935, -225)
+2025-04-10 14:45:31,390 - INFO - Mouse click captured at 20250410_144531_379663 - Position: (2000, -64)
+2025-04-10 14:45:33,730 - INFO - Mouse click captured at 20250410_144533_718012 - Position: (2160, 254)
+2025-04-10 14:45:33,873 - INFO - Mouse click captured at 20250410_144533_861992 - Position: (2160, 254)
+2025-04-10 14:45:38,964 - INFO - Mouse click captured at 20250410_144538_953272 - Position: (2125, -85)
+2025-04-10 14:45:39,098 - INFO - Mouse click captured at 20250410_144539_086025 - Position: (2125, -85)
+2025-04-10 14:45:42,234 - INFO - Mouse click captured at 20250410_144542_223966 - Position: (2177, -124)
+2025-04-10 14:45:42,372 - INFO - Mouse click captured at 20250410_144542_355266 - Position: (2177, -124)
+2025-04-10 14:45:43,654 - INFO - Mouse click captured at 20250410_144543_646145 - Position: (2324, 334)
+2025-04-10 14:45:44,644 - INFO - Mouse click captured at 20250410_144544_625785 - Position: (2528, 694)
+2025-04-10 14:45:46,937 - INFO - Mouse click captured at 20250410_144546_923650 - Position: (1591, 113)
+2025-04-10 14:45:52,298 - INFO - Mouse click captured at 20250410_144552_285969 - Position: (1476, 126)
+2025-04-10 14:45:53,992 - INFO - Mouse click captured at 20250410_144553_981080 - Position: (2286, -187)
+2025-04-10 14:45:55,381 - INFO - Mouse click captured at 20250410_144555_371925 - Position: (2132, -65)
+2025-04-10 14:45:55,538 - INFO - Mouse click captured at 20250410_144555_519085 - Position: (2132, -65)
+2025-04-10 14:45:57,327 - INFO - Mouse click captured at 20250410_144557_310387 - Position: (2318, 1118)
+2025-04-10 14:46:03,553 - INFO - Mouse click captured at 20250410_144603_533749 - Position: (2960, -232)
+2025-04-10 14:46:06,184 - INFO - Mouse click captured at 20250410_144606_170354 - Position: (753, 850)
+2025-04-10 14:46:07,229 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:46:07,340 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:46:07,440 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:46:09,437 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:46:09,566 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:46:09,721 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:46:09,883 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:46:10,233 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:46:10,333 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:46:11,321 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:46:11,421 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:46:11,537 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:46:11,874 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:46:11,965 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:46:12,164 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:46:12,402 - INFO - Skipped key press capture for key: . - Could not detect caret position
+2025-04-10 14:46:14,092 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:46:14,245 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:46:14,330 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:46:17,727 - INFO - Mouse click captured at 20250410_144617_722279 - Position: (77, 229)
+2025-04-10 14:46:20,243 - INFO - Mouse click captured at 20250410_144620_231700 - Position: (870, 659)
+2025-04-10 14:47:14,569 - INFO - Mouse click captured at 20250410_144714_553428 - Position: (649, 891)
+2025-04-10 14:47:19,837 - INFO - Mouse click captured at 20250410_144719_828635 - Position: (1416, 946)
+2025-04-10 14:47:24,525 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:24,734 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:24,803 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:47:24,937 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:25,067 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:25,167 - INFO - Skipped key press capture for key: k - Could not detect caret position
+2025-04-10 14:47:25,515 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:25,613 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:26,006 - INFO - Skipped key press capture for key: w - Could not detect caret position
+2025-04-10 14:47:26,104 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:26,188 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:47:26,352 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:47:26,476 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:47:26,714 - INFO - Skipped key press capture for key: b - Could not detect caret position
+2025-04-10 14:47:26,817 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:27,258 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:27,421 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:27,535 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:47:27,661 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:27,923 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:28,016 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:28,238 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:47:28,346 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:47:28,480 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:47:29,218 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:29,326 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:29,514 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:29,626 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:47:29,736 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:30,122 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:47:30,231 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:30,414 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:47:30,603 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:47:30,911 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:47:31,038 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:31,803 - INFO - Skipped key press capture for key: f - Could not detect caret position
+2025-04-10 14:47:31,967 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:32,142 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:47:32,249 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:32,480 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:32,575 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:47:32,686 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:47:32,733 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:33,567 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:33,682 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:47:33,759 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:33,851 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:39,343 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:39,498 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:47:39,664 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:47:40,480 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:40,618 - INFO - Skipped key press capture for key: p - Could not detect caret position
+2025-04-10 14:47:40,749 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:41,466 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:41,550 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:41,890 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:42,667 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:47:42,783 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:43,034 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:47:43,210 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:47:43,299 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:43,452 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:47:43,659 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:43,740 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:43,837 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:43,969 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:47:44,572 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:47:44,637 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:47:44,755 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:44,874 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:47:51,472 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:51,888 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:51,939 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:52,072 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:52,218 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:47:52,673 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:52,889 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:52,993 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:53,073 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:53,167 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:47:53,647 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:47:53,744 - INFO - Skipped key press capture for key: f - Could not detect caret position
+2025-04-10 14:47:53,950 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:54,026 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:47:54,120 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:54,190 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:54,541 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:54,724 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:47:54,910 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:47:55,418 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:55,580 - INFO - Skipped key press capture for key: p - Could not detect caret position
+2025-04-10 14:47:55,717 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:56,110 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:47:56,181 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:47:56,768 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:47:56,830 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:04,166 - INFO - Skipped key press capture for key: w - Could not detect caret position
+2025-04-10 14:48:04,273 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:48:04,389 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:48:04,603 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:48:04,718 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:05,965 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:06,128 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:06,272 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:06,396 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:48:06,496 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:06,612 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:48:06,802 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:48:07,037 - INFO - Skipped key press capture for key: y - Could not detect caret position
+2025-04-10 14:48:07,646 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:48:07,758 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:48:07,933 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:48:08,043 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:08,154 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:48:08,395 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:08,493 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:48:08,604 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:13,053 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:48:13,158 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:13,232 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:48:13,386 - INFO - Skipped key press capture for key: p - Could not detect caret position
+2025-04-10 14:48:13,648 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:48:14,152 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:14,269 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:14,373 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:14,550 - INFO - Skipped key press capture for key: , - Could not detect caret position
+2025-04-10 14:48:15,968 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:16,061 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:16,152 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:48:22,541 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:48:22,618 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:22,731 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:22,870 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:22,986 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:23,370 - INFO - Skipped key press capture for key: w - Could not detect caret position
+2025-04-10 14:48:23,463 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:24,109 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:24,174 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:24,445 - INFO - Skipped key press capture for key: , - Could not detect caret position
+2025-04-10 14:48:24,812 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:48:24,894 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:48:24,975 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:25,369 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:25,450 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:48:25,534 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:48:25,610 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:48:25,825 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:48:25,932 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:26,029 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:26,142 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:26,423 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:26,694 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:26,966 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:27,030 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:27,179 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:27,291 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:48:27,379 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:27,613 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:28,122 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:48:28,212 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:28,413 - INFO - Skipped key press capture for key: z - Could not detect caret position
+2025-04-10 14:48:28,494 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:29,374 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:48:36,930 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:37,146 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:37,299 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:37,516 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:48:37,754 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:37,882 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:37,972 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:38,285 - INFO - Skipped key press capture for key: , - Could not detect caret position
+2025-04-10 14:48:39,170 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:39,303 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:48:39,977 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:40,394 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:48:40,538 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:48:40,650 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:48:40,782 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:40,835 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:48:41,204 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:48:41,298 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:48:41,436 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:48:41,534 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:48:43,439 - INFO - Skipped key press capture for key: . - Could not detect caret position
+2025-04-10 14:48:44,653 - INFO - Skipped key press capture for key: ( - Could not detect caret position
+2025-04-10 14:48:47,708 - INFO - Skipped key press capture for key: ~ - Could not detect caret position
+2025-04-10 14:48:49,364 - INFO - Skipped key press capture for key: ! - Could not detect caret position
+2025-04-10 14:48:51,178 - INFO - Skipped key press capture for key: ! - Could not detect caret position
+2025-04-10 14:48:51,899 - INFO - Skipped key press capture for key: ~ - Could not detect caret position
+2025-04-10 14:48:52,845 - INFO - Skipped key press capture for key: " - Could not detect caret position
+2025-04-10 14:48:56,496 - INFO - Skipped key press capture for key: " - Could not detect caret position
+2025-04-10 14:49:00,823 - INFO - Skipped key press capture for key: b - Could not detect caret position
+2025-04-10 14:49:01,051 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:01,230 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:01,411 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:01,509 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:01,611 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:03,095 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:03,451 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:49:03,613 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:03,696 - INFO - Skipped key press capture for key: d - Could not detect caret position
+2025-04-10 14:49:03,870 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:03,960 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:49:04,714 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:04,814 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:05,373 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:05,469 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:05,800 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:05,869 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:05,980 - INFO - Skipped key press capture for key: v - Could not detect caret position
+2025-04-10 14:49:06,459 - INFO - Skipped key press capture for key: f - Could not detect caret position
+2025-04-10 14:49:06,554 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:06,664 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:07,754 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:49:08,280 - INFO - Skipped key press capture for key: w - Could not detect caret position
+2025-04-10 14:49:08,381 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:08,504 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:08,651 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:08,736 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:09,036 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:09,121 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:09,305 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:09,397 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:09,506 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:10,586 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:49:10,702 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:10,846 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:10,977 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:11,341 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:12,039 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:12,098 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:16,698 - INFO - Skipped key press capture for key: y - Could not detect caret position
+2025-04-10 14:49:16,857 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:16,945 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:49:17,291 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:17,374 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:17,498 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:17,790 - INFO - Skipped key press capture for key: l - Could not detect caret position
+2025-04-10 14:49:17,962 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:18,218 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:18,827 - INFO - Skipped key press capture for key: k - Could not detect caret position
+2025-04-10 14:49:19,005 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:19,061 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:19,161 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:49:19,763 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:19,847 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:32,575 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:32,762 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:32,849 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:33,603 - INFO - Skipped key press capture for key: p - Could not detect caret position
+2025-04-10 14:49:33,678 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:33,935 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:49:34,104 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:34,443 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:34,552 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:34,622 - INFO - Skipped key press capture for key: o - Could not detect caret position
+2025-04-10 14:49:34,698 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:38,717 - INFO - Skipped key press capture for key: w - Could not detect caret position
+2025-04-10 14:49:39,611 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:39,690 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:39,793 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:39,917 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:42,212 - INFO - Skipped key press capture for key: , - Could not detect caret position
+2025-04-10 14:49:42,575 - INFO - Skipped key press capture for key: b - Could not detect caret position
+2025-04-10 14:49:43,034 - INFO - Skipped key press capture for key: y - Could not detect caret position
+2025-04-10 14:49:43,629 - INFO - Skipped key press capture for key: u - Could not detect caret position
+2025-04-10 14:49:43,741 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:49:43,869 - INFO - Skipped key press capture for key: i - Could not detect caret position
+2025-04-10 14:49:43,931 - INFO - Skipped key press capture for key: n - Could not detect caret position
+2025-04-10 14:49:44,053 - INFO - Skipped key press capture for key: g - Could not detect caret position
+2025-04-10 14:49:44,255 - INFO - Skipped key press capture for key: t - Could not detect caret position
+2025-04-10 14:49:44,357 - INFO - Skipped key press capture for key: h - Could not detect caret position
+2025-04-10 14:49:44,444 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:44,686 - INFO - Skipped key press capture for key: c - Could not detect caret position
+2025-04-10 14:49:44,755 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:44,892 - INFO - Skipped key press capture for key: m - Could not detect caret position
+2025-04-10 14:49:45,033 - INFO - Skipped key press capture for key: e - Could not detect caret position
+2025-04-10 14:49:45,119 - INFO - Skipped key press capture for key: s - Could not detect caret position
+2025-04-10 14:49:45,690 - INFO - Skipped key press capture for key: r - Could not detect caret position
+2025-04-10 14:49:45,757 - INFO - Skipped key press capture for key: a - Could not detect caret position
+2025-04-10 14:49:45,947 - INFO - Skipped key press capture for key: ) - Could not detect caret position
+2025-04-10 14:49:57,355 - INFO - Mouse click captured at 20250410_144957_341992 - Position: (751, 53)
+2025-04-10 14:49:58,662 - INFO - Mouse click captured at 20250410_144958_649991 - Position: (836, 773)
+2025-04-10 14:49:59,463 - INFO - Mouse click captured at 20250410_144959_447041 - Position: (824, 42)
+2025-04-10 14:50:00,113 - INFO - Mouse click captured at 20250410_145000_101334 - Position: (734, 46)
+2025-04-10 14:50:01,634 - INFO - Mouse click captured at 20250410_145001_626237 - Position: (799, 779)
+2025-04-10 14:50:02,597 - INFO - Mouse click captured at 20250410_145002_580552 - Position: (840, 47)
+2025-04-10 14:50:03,301 - INFO - Mouse click captured at 20250410_145003_284826 - Position: (768, 57)
+2025-04-10 14:50:04,731 - INFO - Mouse click captured at 20250410_145004_718295 - Position: (1071, 178)
+2025-04-10 14:50:05,515 - INFO - Mouse click captured at 20250410_145005_501815 - Position: (845, 53)

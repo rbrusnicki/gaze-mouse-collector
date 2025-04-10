@@ -1,11 +1,21 @@
 import cv2
 import os
 import time
+import logging
 from datetime import datetime
-from pynput.mouse import Listener as MouseListener
+from pynput.mouse import Listener as MouseListener, Controller as MouseController
 from pynput.keyboard import Listener as KeyboardListener
 import ctypes
-from ctypes import wintypes, byref, Structure, WinError, POINTER
+from ctypes import wintypes, byref, Structure, WinError, POINTER, create_unicode_buffer
+
+# Set up logging
+log_dir = "log"
+os.makedirs(log_dir, exist_ok=True)
+logging.basicConfig(
+    filename=os.path.join(log_dir, "gaze_collector.log"),
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 # Create directories for storing captured data
 mouse_data_dir = "mouse_data"
@@ -15,6 +25,10 @@ os.makedirs(keyboard_data_dir, exist_ok=True)
 
 # Initialize camera
 camera = cv2.VideoCapture(0)  # 0 is typically the default camera
+if not camera.isOpened():
+    logging.error("Failed to open camera. Make sure it's connected properly.")
+else:
+    logging.info("Camera initialized successfully")
 
 # Define Win32 structures for cursor and caret position
 class POINT(Structure):
@@ -45,10 +59,14 @@ user32.GetGUIThreadInfo.restype = wintypes.BOOL
 user32.ClientToScreen.argtypes = [wintypes.HWND, ctypes.POINTER(POINT)]
 user32.ClientToScreen.restype = wintypes.BOOL
 
-# Variables for throttling and caching
+# Variables for tracking state
+mouse_controller = MouseController()
 last_caret_pos = None
 caret_pos_request_time = None
 throttle_time = 0.1  # Only check caret position every 100ms
+
+# Dictionary to track which windows have working caret detection
+window_caret_detection = {}
 
 def on_click(x, y, button, pressed):
     """
@@ -70,9 +88,11 @@ def on_click(x, y, button, pressed):
             image_path = os.path.join(mouse_data_dir, f"{timestamp}_{x}_{y}.jpg")
             cv2.imwrite(image_path, frame)
             
-            print(f"Mouse click captured at {timestamp} - Position: {cursor_position}")
+            message = f"Mouse click captured at {timestamp} - Position: {cursor_position}"
+            print(message)
+            logging.info(message)
         else:
-            print("Failed to capture image from camera")
+            logging.error("Failed to capture image from camera")
 
 def get_caret_position():
     """
@@ -94,6 +114,10 @@ def get_caret_position():
         if not hwnd:
             return None
             
+        # If we already know this window doesn't support caret detection, return None immediately
+        if hwnd in window_caret_detection and not window_caret_detection[hwnd]:
+            return None
+        
         # Get thread ID of the foreground window using ctypes directly
         process_id = wintypes.DWORD()
         thread_id = user32.GetWindowThreadProcessId(hwnd, byref(process_id))
@@ -119,12 +143,16 @@ def get_caret_position():
             # Convert client coordinates to screen coordinates
             if user32.ClientToScreen(gui_info.hwndCaret, byref(pt)):
                 last_caret_pos = (pt.x, pt.y)
+                # Mark this window as having working caret detection
+                window_caret_detection[hwnd] = True
                 return last_caret_pos
-                
+        
+        # If we got here, caret detection didn't work for this window
+        window_caret_detection[hwnd] = False
         return None
     
     except Exception as e:
-        print(f"Error getting caret position: {e}")
+        logging.error(f"Error getting caret position: {e}")
         return None
 
 def on_press(key):
@@ -158,21 +186,31 @@ def on_press(key):
                 image_path = os.path.join(keyboard_data_dir, f"{timestamp}_{x}_{y}.jpg")
                 cv2.imwrite(image_path, frame)
                 
-                print(f"Key press captured at {timestamp} - Position: {caret_position} - Key: {char}")
+                message = f"Key press captured at {timestamp} - Position: {caret_position} - Key: {char}"
+                print(message)
+                logging.info(message)
             else:
-                print("Failed to capture image from camera on key press")
+                logging.error("Failed to capture image from camera on key press")
         else:
-            print(f"Failed to detect caret position for key: {char}")
+            logging.info(f"Skipped key press capture for key: {char} - Could not detect caret position")
             
     except Exception as e:
-        print(f"Error in keyboard handler: {e}")
+        logging.error(f"Error in keyboard handler: {e}")
 
 def main():
-    print("Gaze, Mouse, and Keyboard Data Collector")
-    print("----------------------------------------")
+    startup_message = "Gaze, Mouse, and Keyboard Data Collector started"
+    divider = "-" * len(startup_message)
+    
+    print(startup_message)
+    print(divider)
     print("Click anywhere to capture camera image and cursor position.")
-    print("Type in any application to capture camera image and caret position.")
+    print("Type in applications like Notepad, Word to capture camera image and caret position.")
+    print("Note: Keyboard captures are skipped if caret position cannot be detected.")
     print("Press Ctrl+C in the terminal to stop the program.")
+    
+    logging.info(startup_message)
+    logging.info("Mouse data folder: " + os.path.abspath(mouse_data_dir))
+    logging.info("Keyboard data folder: " + os.path.abspath(keyboard_data_dir))
     
     # Start mouse and keyboard listeners
     mouse_listener = MouseListener(on_click=on_click)
@@ -181,18 +219,29 @@ def main():
     mouse_listener.start()
     keyboard_listener.start()
     
+    logging.info("Mouse and keyboard listeners started")
+    
     try:
         # Keep the main thread alive
         while mouse_listener.is_alive() and keyboard_listener.is_alive():
             time.sleep(0.1)
     except KeyboardInterrupt:
         print("\nProgram terminated by user")
+        logging.info("Program terminated by user")
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
     finally:
         # Release camera when program ends
         mouse_listener.stop()
         keyboard_listener.stop()
         camera.release()
         print("Camera released")
+        logging.info("Camera released")
+        logging.info("Program stopped")
 
 if __name__ == "__main__":
-    main() 
+    try:
+        main()
+    except Exception as e:
+        logging.critical(f"Fatal error: {e}")
+        raise 
