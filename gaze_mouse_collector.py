@@ -6,7 +6,6 @@ from pynput.mouse import Listener as MouseListener
 from pynput.keyboard import Listener as KeyboardListener
 import win32gui
 import win32api
-from ctypes import windll, Structure, c_long, byref
 
 # Create directories for storing captured data
 mouse_data_dir = "mouse_data"
@@ -16,10 +15,6 @@ os.makedirs(keyboard_data_dir, exist_ok=True)
 
 # Initialize camera
 camera = cv2.VideoCapture(0)  # 0 is typically the default camera
-
-# Define structure for getting caret position with more accuracy
-class POINT(Structure):
-    _fields_ = [("x", c_long), ("y", c_long)]
 
 def on_click(x, y, button, pressed):
     """
@@ -47,38 +42,25 @@ def on_click(x, y, button, pressed):
 
 def get_caret_position():
     """
-    Get the current text caret position (the blinking vertical line where text appears)
+    Get the current text caret position
     """
     try:
         # Get the foreground window handle
         hwnd = win32gui.GetForegroundWindow()
         
-        # Get the GUI thread info for the foreground window
-        thread_id = win32api.GetWindowThreadProcessId(hwnd)[0]
-        caret_info = win32gui.GetGUIThreadInfo(thread_id)
+        # Get the caret position
+        caret_info = win32gui.GetGUIThreadInfo(win32api.GetWindowThreadProcessId(hwnd)[0])
         
-        # Check if the caret position is valid (non-zero)
+        # Return the caret position
         if caret_info.rcCaret.left != 0 or caret_info.rcCaret.top != 0:
-            # Return the center of the caret
-            x = caret_info.rcCaret.left
-            y = caret_info.rcCaret.top + (caret_info.rcCaret.bottom - caret_info.rcCaret.top) // 2
-            return (x, y)
-        
-        # If the standard method doesn't work, try an alternative approach
-        # Create a POINT structure for the caret
-        caret_pos = POINT()
-        
-        # Try to get the caret position using alternative method
-        if windll.user32.GetCaretPos(byref(caret_pos)):
-            # Convert screen coordinates
-            windll.user32.ClientToScreen(hwnd, byref(caret_pos))
-            return (caret_pos.x, caret_pos.y)
-            
-        # If all methods fail, return None
-        return None
+            return (caret_info.rcCaret.left, caret_info.rcCaret.top)
+        else:
+            # If caret position is not available, get the cursor position as a fallback
+            return win32gui.GetCursorPos()
     except Exception as e:
         print(f"Error getting caret position: {e}")
-        return None
+        # Fallback to cursor position
+        return win32gui.GetCursorPos()
 
 def on_press(key):
     """
@@ -89,14 +71,8 @@ def on_press(key):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
         
         # Get caret position
-        caret_position = get_caret_position()
-        
-        # Skip if we couldn't get the caret position
-        if caret_position is None:
-            print("Couldn't determine caret position, skipping capture")
-            return
-            
-        x, y = caret_position
+        x, y = get_caret_position()
+        caret_position = (x, y)
         
         # Capture image from camera
         ret, frame = camera.read()
@@ -113,7 +89,7 @@ def on_press(key):
             except AttributeError:
                 char = str(key)
                 
-            print(f"Key press captured at {timestamp} - Caret position: {caret_position} - Key: {char}")
+            print(f"Key press captured at {timestamp} - Position: {caret_position} - Key: {char}")
         else:
             print("Failed to capture image from camera on key press")
     except Exception as e:
@@ -123,7 +99,7 @@ def main():
     print("Gaze, Mouse, and Keyboard Data Collector")
     print("----------------------------------------")
     print("Click anywhere to capture camera image and cursor position.")
-    print("Type to capture camera image and text caret position (where text appears).")
+    print("Type to capture camera image and caret position.")
     print("Press Ctrl+C in the terminal to stop the program.")
     
     # Start mouse and keyboard listeners
