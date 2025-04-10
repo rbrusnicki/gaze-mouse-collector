@@ -1,3 +1,2 @@
 opencv-python==4.7.0.72
-pynput==1.7.6
-pywin32==305 
+pynput==1.7.6 
